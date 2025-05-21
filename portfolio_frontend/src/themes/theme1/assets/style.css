@@ -1,0 +1,13 @@
+.pt-20 {
+    padding-top: 20px;
+}
+
+.loading_container {
+    /* background-color: red; */
+}
+
+.theme-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

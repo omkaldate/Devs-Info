@@ -1,0 +1,360 @@
+.font_size_20px {
+  font-size: 20px;
+}
+
+.color-white {
+  color: white;
+}
+
+.main {
+  margin: 30px 20vh;
+  display: flex;
+}
+
+.left-side {
+  width: 30%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #00aa45; */
+  /* height: 80vh; */
+}
+
+.right-side {
+  width: 70%;
+  /* background-color: red; */
+}
+
+.skills-set {
+  color: black;
+  font-size: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.281);
+  border-radius: 50px;
+  padding: 5px 10px;
+  max-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-set-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-container {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.description-bottom {
+  font-weight: 600;
+  margin-right: 30px;
+  display: flex;
+}
+
+.description-bottom-container {
+  display: flex;
+  padding-left: 25px;
+}
+
+.my-project-card-container {
+  width: 100%;
+  margin-right: 20px;
+  /* border-radius: 8px; */
+}
+
+.my-project-container {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.mr-1 {
+  margin-right: 1px;
+}
+
+.mr-2 {
+  margin-right: 2px;
+}
+
+.mr-3 {
+  margin-right: 3px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-6 {
+  margin-right: 6px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.github-contributions-container {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  border: 1px dashed rgb(194, 194, 194);
+  border-radius: 5px;
+  /* background-color: rgba(255, 255, 255, 0.295); */
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.font-size-10 {
+  color: rgba(128, 128, 128, 0.925);
+  font-size: 10px;
+}
+
+.share-container {
+  /* padding: 5px; */
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.363);
+  justify-content: center;
+}
+
+.pd-top-15 {
+  padding-top: 15vh;
+}
+
+.footer-container {
+  font-size: 12px;
+  /* margin-top: 35vh; */
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.form-control {
+  border: none;
+}
+
+.follow-button {
+  background-color: black;
+  padding: 3px 12px;
+  border-radius: 4px;
+}
+
+.follow {
+  color: rgba(255, 255, 255, 0.836);
+  font-weight: 500;
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.project-searchbar-text {
+  width: 100%;
+}
+
+.mynetwork-bar-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mynetwork-container {
+  height: 100vh;
+  overflow-y: scroll;
+  /* background-color: red; */
+}
+
+.addperosonal-details-container {
+}
+
+.peers-searchbar {
+  padding-top: 20px;
+}
+
+.input-border {
+  border: 1px solid rgba(128, 128, 128, 0.103);
+  border-radius: 5px;
+}
+
+.user-project-container {
+  background-color: white;
+  height: 100vh;
+  padding: 20px 20px;
+  overflow-y: scroll;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.color-black {
+  color: rgba(0, 0, 0, 0.685);
+}
+
+.stuff-header-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* .bar {
+  width: 30%;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+  height: .5px;
+
+} */
+
+.primary-color {
+  color: #556ee6;
+}
+
+.bar {
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.301);
+}
+
+.view-project-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+font-size-12 {
+  font-size: 12px;
+}
+
+.project-left-side {
+  /* background-color: red; */
+  width: 80%;
+  padding-right: 20px;
+}
+
+.project-right-side {
+  /* width: 100%; */
+  /* background-color: red; */
+}
+
+.color-light-green {
+  background-color: #00aa45;
+  color: white;
+}
+
+.upvote-button {
+  background-color: #00aa45;
+  /* padding: 5px 15px; */
+  color: white;
+  font-weight: 500;
+  border: 1px solid green;
+  border-radius: 4px;
+  display: flex;
+  cursor: pointer;
+}
+
+.description-color {
+  color: #74788d;
+}
+
+.upvote-button-leftside {
+  padding: 5px 15px;
+}
+
+.upvote-button-rightside {
+  border-left: 1px solid green;
+  padding: 5px 15px;
+}
+
+.radius-50 {
+  border-radius: 50px;
+}
+
+.project-comment {
+  background-color: rgba(236, 236, 236, 0.377);
+}
+
+.user-dashboard-container {
+  background-color: white;
+  padding: 20px 25px;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.mr-3 {
+  margin-right: 3px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.pt-3 {
+  padding-top: 3px;
+}
+
+.skills-container {
+  /* background-color: red; */
+  padding: 5px 5px;
+}
+
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.pagination-container {
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-user-input {
+  border-radius: 50px;
+  border: 1px solid gray;
+}
