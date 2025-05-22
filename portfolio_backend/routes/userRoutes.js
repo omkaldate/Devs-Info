@@ -31,31 +31,15 @@ router.post("/signup", userAuthController.signup);
 router.get("/getuserbyid/:id", protect, userController.getUserById);
 router.get("/getuserbyname/:uname", userController.getUserByName);
 
-router.get(
-  "/getaccountdetailsbyid/:id",
-  protect,
-  userController.getAccountDetailsById
-);
+router.get("/getaccountdetailsbyid/:id",protect,userController.getAccountDetailsById);
 
-router.get(
-  "/getalluser-pagination/:page",
-  protect,
-  userController.getAllUserPagination
-);
+router.get("/getalluser-pagination/:page",protect,userController.getAllUserPagination);
 
 router.post("/searchallusers", protect, userController.searchAllUsers);
 
-router.put(
-  "/updatepersonaldetailsbyid/:id",
-  protect,
-  userController.updatePersonalDetailsById
-);
+router.put("/updatepersonaldetailsbyid/:id",protect,userController.updatePersonalDetailsById);
 
-router.put(
-  "/updateaccountdetailsbyid/:id",
-  protect,
-  userController.updateAccountDetailsById
-);
+router.put("/updateaccountdetailsbyid/:id",protect,userController.updateAccountDetailsById);
 
 router.put("/updategithub/:id", protect, userController.updateGithubUserName);
 

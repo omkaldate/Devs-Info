@@ -195,7 +195,7 @@ exports.updateProfileImage = async (req, res) => {
     }
 
     const file = req.files.image;
-    const allowedSize = 2 * 1024 * 1024 * 1024 * 1024 * 1025; // 5MB
+    const allowedSize = 5 * 1024 * 1024; // 5MB
     const uid = req.user._id.toString();
 
     if (file.size > allowedSize) {
@@ -215,7 +215,7 @@ exports.updateProfileImage = async (req, res) => {
             .json({ success: true, message: "Profile Image updated" });
         }
       } else {
-        return res.status(400).json({
+        return res.status(500).json({
           success: false,
           message: "Profile Image not updated some database issue",
         });

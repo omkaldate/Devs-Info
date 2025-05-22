@@ -144,7 +144,7 @@ exports.addProject = async (req, res) => {
       return;
     }
     const file = req.files.image;
-    const allowedSize = 2 * 1024 * 1024 * 1024 * 1024 * 1025; // 5MB
+    const allowedSize = 5 * 1024 * 1024; // 5MB
 
     if (file.size > allowedSize) {
       res.status(400).json({ success: false, message: "Max 5MB allowed" });

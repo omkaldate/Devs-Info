@@ -168,7 +168,7 @@ function SignupComponent() {
                       <NavLink to="/login">Login now </NavLink>
                     </a>{" "}
                   </p>
-                  <p>© 2023 • Devsinfo.in</p>
+                  <p>© 2026 • Devsinfo.in</p>
                 </div>
               </div>
             </div>

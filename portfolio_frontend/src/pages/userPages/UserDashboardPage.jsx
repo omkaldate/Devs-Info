@@ -42,14 +42,8 @@ function UserHomePage() {
             <Route path="/projects/:uid/:pid" element={<UserProjectPage />} />
             <Route path="/user/:id" element={<UserProfilePage />} />
             <Route path="/editproject/:uid/:pid" element={<UserEditProject/>} />
-            <Route
-              path="/addpersonaldetails/*"
-              element={<AddPersonalDetails />}
-            />
-            <Route
-              path="/connectgithub"
-              element={<ConnectGithub/>}
-            />
+            <Route path="/addpersonaldetails/*" element={<AddPersonalDetails />} />
+            <Route path="/connectgithub" element={<ConnectGithub/>} />
           </Routes>
         </div>
       </div>
