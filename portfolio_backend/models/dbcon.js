@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = `mongodb+srv://omkaldate23:Omkaldate%405152@cluster0.pqmcuzp.mongodb.net/?retryWrites=true&w=majority`;
+const url = process.env.db_URL;
 
 mongoose
   .connect(url, {
